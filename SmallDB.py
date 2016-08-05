@@ -33,3 +33,4 @@ label = labels.get(key, key)
 result = person.get(key, 'not available')
 
 print "%s's %s is %s" % (name, label, result)
+
