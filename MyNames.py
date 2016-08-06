@@ -23,4 +23,5 @@ def store(data, fullname):
 			people.append(fullname)
 		else:
 			data[label][name] = [fullname]
-
+def showall(data):
+	print data
