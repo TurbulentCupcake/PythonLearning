@@ -44,3 +44,7 @@ class Filter:
 class SPAMFilter(Filter):
 	def init(self): #override init function in Filter
 		self.blocked = ['SPAM']
+
+
+class Hello:
+	def printGreeting(self)
