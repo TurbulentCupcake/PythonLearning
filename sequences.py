@@ -24,5 +24,14 @@ class ArithmeticSequence:
 	def __setitem__(self, key, value):
 		checkIndex(key)
 		self.changed[key] = value
+
+	def __delitem__(self, key):
+		checkIndex(key)
+		try: 
+			del self.changed[key]
+			print 'Key deleted successfully'
+		except:
+			Exception: print 'ERROR!'
+
 		
 
