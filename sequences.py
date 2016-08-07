@@ -30,8 +30,7 @@ class ArithmeticSequence:
 		try: 
 			del self.changed[key]
 			print 'Key deleted successfully'
-		except:
-			Exception: print 'ERROR!'
+		except Exception: print 'ERROR!'
 
 		
 
