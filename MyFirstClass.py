@@ -38,6 +38,9 @@ class FooBar:
 	def __init__(self, value = 42):
 		self.somevar = value
 
+	def getValue(self):
+		return self.somevar
+
 
 
 
