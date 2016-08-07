@@ -34,6 +34,13 @@ class StudentCount:
 		self.count += 1
 
 
+class FooBar:
+	def __init__(self, value = 42):
+		self.somevar = value
+
+
+
+
 # Filters spam
 class Filter:
 	def init(self):
