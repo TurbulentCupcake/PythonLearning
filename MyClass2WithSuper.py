@@ -1,3 +1,5 @@
+__metaclass__ = type
+
 class Bird:
 	def __init__(self):
 		self.hungry = True
@@ -15,5 +17,7 @@ class SongBird(Bird):
 		self.sound = 'Squawk!'
 	def sing(self):
 		print self.sound
+
+		
 
 
